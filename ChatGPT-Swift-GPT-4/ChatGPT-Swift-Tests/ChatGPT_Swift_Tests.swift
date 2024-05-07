@@ -1,14 +1,10 @@
-//
-//  ChatGPT_Swift_ArtanTests.swift
-//  ChatGPT-Swift-ArtanTests
-//
-//  Created by Artan Bajqinca on 2024-04-12.
+//  Created by XX on 2024-04-12.
 //
 
 import XCTest
-@testable import ChatGPT_Swift_Artan
+@testable import ChatGPT_Swift
 
-final class ChatGPT_Swift_ArtanTests: XCTestCase {
+final class ChatGPT_Swift_Tests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

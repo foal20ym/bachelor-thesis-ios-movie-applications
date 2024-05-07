@@ -1,7 +1,4 @@
 //
-//  ContentView.swift
-//  ChatGPT-Swift-Artan
-//
 //  Created by XX on 2024-04-12.
 //
 

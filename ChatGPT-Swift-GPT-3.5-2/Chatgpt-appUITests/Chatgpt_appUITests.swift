@@ -2,7 +2,7 @@
 //  Chatgpt_appUITests.swift
 //  Chatgpt-appUITests
 //
-//  Created by Jonathan Kilit on 2024-04-12.
+//  Created by XX on 2024-04-12.
 //
 
 import XCTest

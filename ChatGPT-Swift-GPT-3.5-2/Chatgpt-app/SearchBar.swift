@@ -2,7 +2,7 @@
 //  SearchBar.swift
 //  Chatgpt-app
 //
-//  Created by Jonathan Kilit on 2024-04-12.
+//  Created by XX on 2024-04-12.
 //
 
 import SwiftUI

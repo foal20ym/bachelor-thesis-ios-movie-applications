@@ -11,9 +11,9 @@
 		BEE569432BC95920005A984E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE569422BC95920005A984E /* ContentView.swift */; };
 		BEE569452BC95922005A984E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE569442BC95922005A984E /* Assets.xcassets */; };
 		BEE569482BC95922005A984E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE569472BC95922005A984E /* Preview Assets.xcassets */; };
-		BEE569522BC95923005A984E /* ChatGPT_Swift_ArtanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE569512BC95923005A984E /* ChatGPT_Swift_ArtanTests.swift */; };
+		BEE569522BC95923005A984E /* ChatGPT_Swift_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE569512BC95923005A984E /* ChatGPT_Swift_Tests.swift */; };
 		BEE5695C2BC95923005A984E /* ChatGPT_Swift_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE5695B2BC95923005A984E /* ChatGPT_Swift_UITests.swift */; };
-		BEE5695E2BC95923005A984E /* ChatGPT_Swift_ArtanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE5695D2BC95923005A984E /* ChatGPT_Swift_ArtanUITestsLaunchTests.swift */; };
+		BEE5695E2BC95923005A984E /* ChatGPT_Swift_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE5695D2BC95923005A984E /* ChatGPT_Swift_UITestsLaunchTests.swift */; };
 		BEE569702BC95AA2005A984E /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE5696F2BC95AA2005A984E /* Movie.swift */; };
 		BEE569722BC95AD8005A984E /* Cast.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE569712BC95AD8005A984E /* Cast.swift */; };
 		BEE569742BC95AE5005A984E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE569732BC95AE5005A984E /* HomeView.swift */; };
@@ -52,10 +52,10 @@
 		BEE569442BC95922005A984E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEE569472BC95922005A984E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BEE5694D2BC95923005A984E /* ChatGPT-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChatGPT-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEE569512BC95923005A984E /* ChatGPT_Swift_ArtanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPT_Swift_ArtanTests.swift; sourceTree = "<group>"; };
+		BEE569512BC95923005A984E /* ChatGPT_Swift_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPT_Swift_Tests.swift; sourceTree = "<group>"; };
 		BEE569572BC95923005A984E /* ChatGPT-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChatGPT-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE5695B2BC95923005A984E /* ChatGPT_Swift_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPT_Swift_UITests.swift; sourceTree = "<group>"; };
-		BEE5695D2BC95923005A984E /* ChatGPT_Swift_ArtanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPT_Swift_ArtanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BEE5695D2BC95923005A984E /* ChatGPT_Swift_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPT_Swift_UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BEE5696F2BC95AA2005A984E /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		BEE569712BC95AD8005A984E /* Cast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cast.swift; sourceTree = "<group>"; };
 		BEE569732BC95AE5005A984E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -141,7 +141,7 @@
 		BEE569502BC95923005A984E /* ChatGPT-Swift-Tests */ = {
 			isa = PBXGroup;
 			children = (
-				BEE569512BC95923005A984E /* ChatGPT_Swift_ArtanTests.swift */,
+				BEE569512BC95923005A984E /* ChatGPT_Swift_Tests.swift */,
 			);
 			path = "ChatGPT-Swift-Tests";
 			sourceTree = "<group>";
@@ -150,7 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				BEE5695B2BC95923005A984E /* ChatGPT_Swift_UITests.swift */,
-				BEE5695D2BC95923005A984E /* ChatGPT_Swift_ArtanUITestsLaunchTests.swift */,
+				BEE5695D2BC95923005A984E /* ChatGPT_Swift_UITestsLaunchTests.swift */,
 			);
 			path = "ChatGPT-Swift-UITests";
 			sourceTree = "<group>";
@@ -358,7 +358,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEE569522BC95923005A984E /* ChatGPT_Swift_ArtanTests.swift in Sources */,
+				BEE569522BC95923005A984E /* ChatGPT_Swift_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEE5695C2BC95923005A984E /* ChatGPT_Swift_UITests.swift in Sources */,
-				BEE5695E2BC95923005A984E /* ChatGPT_Swift_ArtanUITestsLaunchTests.swift in Sources */,
+				BEE5695E2BC95923005A984E /* ChatGPT_Swift_UITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,6 +1,7 @@
 # You can reference documentation on rules here https://realm.github.io/SwiftLint/rule-directory.html
 disabled_rules: # rule identifiers to exclude from running
   - attributes
+  - colon
   - discouraged_object_literal
   - discouraged_optional_collection
   - explicit_acl
@@ -40,8 +41,11 @@ disabled_rules: # rule identifiers to exclude from running
   - type_contents_order
   - unneeded_parentheses_in_closure_argument
   - todo
+  - trailing_newline
   - vertical_whitespace_opening_braces
   - vertical_whitespace_between_cases
+  - vertical_whitespace
+  - vertical_whitespace_closing_braces
   - xct_specific_matcher
   - nslocalizedstring_require_bundle
   - file_types_order
@@ -58,7 +62,6 @@ opt_in_rules: # some rules are only opt-in
   - closure_parameter_position
   - closure_spacing
   - collection_alignment
-  - colon
   - comma
   - compiler_protocol_init
   - conditional_returns_on_newline
@@ -120,7 +123,6 @@ opt_in_rules: # some rules are only opt-in
   - notification_center_detachment
   - nesting
   - opening_brace
-  #- operator_usage_whitespace
   - operator_whitespace
   - overridden_super_call
   - override_in_extension
@@ -155,7 +157,6 @@ opt_in_rules: # some rules are only opt-in
   - syntactic_sugar
   - test_case_accessibility
   - trailing_comma
-  - trailing_newline
   - trailing_semicolon
   - type_body_length
   - type_name
@@ -171,8 +172,6 @@ opt_in_rules: # some rules are only opt-in
   - valid_ibinspectable
   - vertical_parameter_alignment
   - vertical_parameter_alignment_on_call
-  - vertical_whitespace
-  - vertical_whitespace_closing_braces
   - void_return
   - weak_delegate
   - xctfail_message
@@ -196,4 +195,5 @@ custom_rules:
     match_kinds: comment
     message: "TODOs must include a link to the issue."
     severity: warning
+
 
